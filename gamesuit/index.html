@@ -1,0 +1,37 @@
+<DOCTYPE!>
+    <html>
+
+    <head>
+        <title>BUKU TAMU</title>
+    </head>
+    <style>
+    </style>
+    <body>
+        <h1>Cek Sekarang Juga !</h1>
+        <br>
+        <form onsubmit="submitForm()">
+            <label>
+                <h2> Nama : </h2>
+                <input type="text" id="name">
+            </label>
+            <br>
+            <label>
+                <h2> Tahun lahir : </h2>
+                <input type="number" id ='Tahun'>
+            </label>
+            <br><br>
+            <button type="submit">Cek Umur</button>
+        </form>
+
+        <script>
+            function submitForm() {
+                var name = document.getElementById('name').value;
+                var Tahun = document.getElementById('Tahun').value;
+                
+                
+                alert("Halo " + name + ",sekarang kamu" + (2019 - Tahun) + " tahun")
+            }
+        </script>
+    </body>
+
+    </html>

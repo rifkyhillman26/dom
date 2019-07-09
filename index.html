@@ -1,0 +1,20 @@
+<div id="lembar-kerja"></div>
+
+<script>
+    var img = document.createElement('img');
+    var lembarKerja = document.getElementById('lembar-kerja')
+
+    img.setAttribute('src', 'https://avatars2.githubusercontent.com/u/15111402?s=460&v=4')
+    img.setAttribute('width', '200')
+    img.setAttribute('height', '200')
+    
+    lembarKerja.appendChild(img)
+
+    img.addEventListener('click', namaF)
+
+    function namaF() {
+        alert('Kamu menyentuh gambar orang ganteng itu')
+    }
+
+
+</script>
